@@ -17,11 +17,9 @@ class BenchIndex extends React.Component {
 
   render() {
     const { benches } = this.props;
-    console.log("Rendering!");
     if (this.isEmpty(benches)) {
       return <h3>Loading</h3>;
     } else {
-      console.log(benches);
       return (
         <div className="bench-index">
           {Object.keys(benches).map(key => {
