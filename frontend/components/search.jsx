@@ -5,7 +5,7 @@ import BenchMap from "./bench_map";
 
 const Search = ({ benches, fetchBenches }) => (
   <div>
-    <BenchMap benches={benches} fetchBenches={fetchBenches} />
+    <BenchMap benches={benches} />
     <BenchIndex benches={benches} fetchBenches={fetchBenches} />
   </div>
 );
